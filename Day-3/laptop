@@ -1,0 +1,23 @@
+package Program;
+
+public class Laptop {
+	String model;
+	int RAMsize;
+	
+	Laptop(String model,int RAMsize){
+		this.model=model;
+		this.RAMsize=RAMsize;
+	}
+	
+	public void Display() {
+		System.out.println("Model Name:"+ model);
+		System.out.println("RAM size:"+RAMsize+"GB");
+		
+	}
+	public static void main(String[] args) {
+		Laptop device = new Laptop("lenovo",65);
+		device.Display();
+	  
+	}
+
+}
