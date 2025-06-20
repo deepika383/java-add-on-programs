@@ -1,0 +1,16 @@
+package Program;
+
+//superclass
+public class Singlelevel {
+	void call() {
+		System.out.println("Ringing");
+
+	}
+	
+}
+//sub class
+class subclass extends Singlelevel{
+	void Phone() {
+		System.out.println("dialing");
+
+	}
